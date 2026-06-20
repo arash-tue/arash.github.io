@@ -1,0 +1,13 @@
+# Site settings
+title: arash.github.io
+tag_text: arash.github.io
+description: Personal site for Arash.
+
+# Build settings
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
