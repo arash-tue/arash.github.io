@@ -1,6 +1,6 @@
 ---
 layout: page
-title: arash.github.io
+title: Arjmandi
 ---
 
 ## About
@@ -11,6 +11,3 @@ Et fugit rerum qui quaerat aliquam sed nemo suscipit cum quisquam praesentium? E
 
 Non alias officiis et laborum sequi sed accusamus quia quo dicta quis id odit galisum ea accusantium expedita. Qui quam rerum vel perspiciatis dignissimos a rerum magni. Id quis temporibus hic similique odio et magnam facilis ad quia quae?
 
-## Links
-
-- [GitHub](https://github.com/arash-tue)

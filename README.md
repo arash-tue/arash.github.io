@@ -1,12 +1,3 @@
-# arash.github.io
+# arjmandi.nl
 
-Personal GitHub Pages site built with Jekyll and the Minima theme.
-
-## Local preview
-
-```sh
-bundle install
-bundle exec jekyll serve
-```
-
-Then open `http://localhost:4000`.
+Personal GitHub Pages.
