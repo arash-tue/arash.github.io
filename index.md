@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: arash.github.io
 ---
 
 ## About

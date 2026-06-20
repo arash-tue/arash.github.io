@@ -1,6 +1,6 @@
 # arash.github.io
 
-Personal GitHub Pages site built with Jekyll and the Solo theme.
+Personal GitHub Pages site built with Jekyll and the Minima theme.
 
 ## Local preview
 
