@@ -1,6 +1,6 @@
 # Site settings
 title: My Personal Page
-description: Arash Arjmandi. This website contains information about my projects, ideas and contact information.
+description: Arash Arjmandi. This website contains information about my projects, and contact information.
 
 # Build settings
 theme: minima
@@ -9,3 +9,9 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+minima:
+  
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/arash-arjmandi" }
+    - { platform: substack, user_url: "https://substack.com/@learningbits",  user_title: "Learning Bits"}
