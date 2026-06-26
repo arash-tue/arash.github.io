@@ -73,26 +73,25 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  align-items: center;
+  align-items: baseline;
+  padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .footer-social .social-media-list li {
+  padding: 0;
   margin: 0;
-}
-
-.footer-social .social-media-list a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
   line-height: 1;
 }
 
-.footer-social .svg-icon {
-  flex: 0 0 16px;
-  width: 16px;
-  height: 16px;
-  padding-right: 0;
+.footer-social .social-media-list li + li {
+  padding-top: 0;
+}
+
+.footer-social .social-media-list a {
+  display: inline-block;
+  line-height: 1;
 }
 
 .post-content {
@@ -102,19 +101,4 @@ select {
 .post-content p,
 .post-content li {
   line-height: 1.65;
-}
-
-.substack-icon {
-  display: inline-flex;
-  flex: 0 0 16px;
-  width: 16px;
-  height: 16px;
-  margin-right: 0;
-  align-items: center;
-  justify-content: center;
-  color: #828282;
-  font-family: $base-font-family;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1;
 }
