@@ -35,7 +35,6 @@ h6,
 
 .site-header,
 .site-nav,
-.site-footer,
 .page-link,
 .post-meta,
 .rss-subscribe,
@@ -55,9 +54,15 @@ select {
 
 .site-nav .page-link,
 .footer-heading,
-.contact-list,
-.social-media-list {
+.contact-list {
   font-weight: 400;
+}
+
+.site-footer,
+.site-footer a,
+.site-footer .username,
+.site-footer .social-media-list {
+  font-family: $base-font-family;
 }
 
 .post-content {
@@ -77,9 +82,9 @@ select {
   align-items: center;
   justify-content: center;
   color: #828282;
-  font-family: $ui-font-family;
-  font-size: 10px;
-  font-weight: 600;
+  font-family: $base-font-family;
+  font-size: 13px;
+  font-weight: 500;
   line-height: 1;
   vertical-align: text-top;
 }
