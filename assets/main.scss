@@ -84,6 +84,15 @@ select {
 .footer-social .social-media-list a {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
+  line-height: 1;
+}
+
+.footer-social .svg-icon {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  padding-right: 0;
 }
 
 .post-content {
@@ -97,9 +106,10 @@ select {
 
 .substack-icon {
   display: inline-flex;
+  flex: 0 0 16px;
   width: 16px;
   height: 16px;
-  margin-right: 5px;
+  margin-right: 0;
   align-items: center;
   justify-content: center;
   color: #828282;
@@ -107,5 +117,4 @@ select {
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
-  vertical-align: text-top;
 }
