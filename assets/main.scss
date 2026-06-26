@@ -65,6 +65,27 @@ select {
   font-family: $base-font-family;
 }
 
+.site-footer {
+  padding: 18px 0 10px;
+}
+
+.footer-social .social-media-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-social .social-media-list li {
+  margin: 0;
+}
+
+.footer-social .social-media-list a {
+  display: inline-flex;
+  align-items: center;
+}
+
 .post-content {
   font-size: 1rem;
 }
