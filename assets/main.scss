@@ -1,0 +1,85 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap");
+
+$base-font-family: "Newsreader", Georgia, "Times New Roman", serif;
+$base-font-size: 18px;
+$base-line-height: 1.65;
+
+@import "minima";
+
+$ui-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+body {
+  font-family: $base-font-family;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-family: $base-font-family;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.site-header,
+.site-nav,
+.site-footer,
+.page-link,
+.post-meta,
+.rss-subscribe,
+table,
+button,
+input,
+textarea,
+select {
+  font-family: $ui-font-family;
+}
+
+.site-title {
+  font-family: $base-font-family;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.site-nav .page-link,
+.footer-heading,
+.contact-list,
+.social-media-list {
+  font-weight: 400;
+}
+
+.post-content {
+  font-size: 1rem;
+}
+
+.post-content p,
+.post-content li {
+  line-height: 1.65;
+}
+
+.substack-icon {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+  color: #828282;
+  font-family: $ui-font-family;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: text-top;
+}
