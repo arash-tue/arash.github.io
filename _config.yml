@@ -4,8 +4,6 @@ author: Arash Arjmandi
 description: This website is a place to share my projects, ideas, and contact information.
 url: "https://arash.arjmandi.nl"
 linkedin_username: arash-arjmandi
-substack_url: "https://substack.com/@learningbits"
-substack_title: Learning Bits
 
 # Build settings
 theme: minima
